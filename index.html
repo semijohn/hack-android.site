@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hack-Android | Android Security Testing Platform</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#020617;
+border-bottom:1px solid #1e293b;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#22c55e;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#cbd5e1;
+font-size:14px;
+}
+
+nav a:hover{
+color:white;
+}
+
+/* HERO */
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:40px;
+padding:80px 8%;
+}
+
+.hero h1{
+font-size:44px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#cbd5e1;
+margin-bottom:20px;
+}
+
+.hero button{
+padding:12px 26px;
+background:#22c55e;
+border:none;
+color:black;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.hero img{
+width:100%;
+border-radius:10px;
+}
+
+/* FEATURES */
+
+.features{
+padding:70px 8%;
+background:#020617;
+text-align:center;
+}
+
+.features h2{
+margin-bottom:40px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+}
+
+.feature{
+background:#0f172a;
+padding:25px;
+border-radius:10px;
+border:1px solid #1e293b;
+}
+
+.feature h3{
+margin-bottom:10px;
+color:#22c55e;
+}
+
+/* DASHBOARD */
+
+.dashboard{
+padding:70px 8%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.dashboard img{
+width:100%;
+border-radius:10px;
+}
+
+.dashboard h2{
+margin-bottom:15px;
+}
+
+/* PRICING */
+
+.pricing{
+padding:70px 8%;
+background:#020617;
+text-align:center;
+}
+
+.price-grid{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+}
+
+.plan{
+background:#0f172a;
+padding:30px;
+border-radius:10px;
+border:1px solid #1e293b;
+}
+
+.price{
+font-size:30px;
+color:#22c55e;
+margin:10px 0;
+}
+
+.plan button{
+padding:10px 20px;
+border:none;
+background:#22c55e;
+color:black;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:#020617;
+padding:40px 8%;
+color:#94a3b8;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.footer-title{
+color:white;
+margin-bottom:10px;
+}
+
+.footer-links a{
+display:block;
+color:#94a3b8;
+text-decoration:none;
+margin-bottom:6px;
+font-size:14px;
+}
+
+.copy{
+text-align:center;
+margin-top:20px;
+font-size:13px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Hack-Android</div>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Features</a>
+<a href="#">Pricing</a>
+<a href="#">Login</a>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<h1>Android Security Testing Platform</h1>
+
+<p>
+Hack-Android helps developers and security teams test Android apps,
+detect vulnerabilities, and monitor security threats in real time.
+</p>
+
+<button>Start Free Trial</button>
+
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<h2>Platform Features</h2>
+
+<div class="feature-grid">
+
+<div class="feature">
+<h3>App Vulnerability Scan</h3>
+<p>Detect security flaws inside Android applications.</p>
+</div>
+
+<div class="feature">
+<h3>Real-Time Monitoring</h3>
+<p>Track suspicious activities across your apps.</p>
+</div>
+
+<div class="feature">
+<h3>Malware Detection</h3>
+<p>Automatically detect malicious behavior.</p>
+</div>
+
+<div class="feature">
+<h3>Security Reports</h3>
+<p>Generate detailed security audit reports.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- DASHBOARD -->
+
+<section class="dashboard">
+
+<div>
+
+<h2>Advanced Security Dashboard</h2>
+
+<p>
+Monitor your Android apps through a powerful dashboard
+with real-time alerts, analytics, and threat insights.
+</p>
+
+</div>
+
+<div>
+
+<img src="https://images.unsplash.com/photo-1551281044-8b1a7a3c0c71">
+
+</div>
+
+</section>
+
+<!-- PRICING -->
+
+<section class="pricing">
+
+<h2>Simple Pricing</h2>
+
+<div class="price-grid">
+
+<div class="plan">
+<h3>Starter</h3>
+<div class="price">$0</div>
+<p>Basic security scans</p>
+<button>Get Started</button>
+</div>
+
+<div class="plan">
+<h3>Pro</h3>
+<div class="price">$29/mo</div>
+<p>Advanced testing tools</p>
+<button>Choose Plan</button>
+</div>
+
+<div class="plan">
+<h3>Enterprise</h3>
+<div class="price">$79/mo</div>
+<p>Full security monitoring</p>
+<button>Contact Sales</button>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<div class="footer-title">Hack-Android</div>
+<p style="font-size:14px;">
+<a href="https://www.encryptionconsulting.com">https://www.encryptionconsulting.com</a>
+<a href=""></a>
+</p>
+</div>
+
+<div>
+<div class="footer-title">Product</div>
+<div class="footer-links">
+<a href="#">Features</a>
+<a href="#">API</a>
+<a href="#">Integrations</a>
+</div>
+</div>
+
+<div>
+<div class="footer-title">Company</div>
+<div class="footer-links">
+<a href="#">About</a>
+<a href="#">Contact</a>
+<a href="#">Support</a>
+</div>
+</div>
+
+</div>
+
+<div class="copy">
+© 2026 hack-android.site – All rights reserved
+</div>
+
+</footer>
+
+</body>
+</html>
